@@ -1,0 +1,760 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="description" content=""> 
+        <meta name="author" content=""> 
+        <!-- Mobile Metas -->         
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/fav/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+        <link rel="manifest" href="img/fav/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/fav/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Site Title  -->         
+        <title>:: البلكونة ::</title>         
+        <!-- Web Fonts  -->         
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed%7CRoboto+Slab:300,400,700%7CRoboto:300,400,500,700" rel="stylesheet"> 
+        <!-- Stylesheets -->         
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/main.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/colors.css"> 
+        <link rel="stylesheet" href="css/responsive.css"> 
+        <link rel="stylesheet" href="css/jquery-ui.min.css"> 
+        <link rel="stylesheet" href="css/weather-icons.min.css"> 
+        <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>     
+    <body> 
+        <div id="pageloader"> 
+            <div class="loader-item"> 
+                <img src="img/load.gif" alt='loader' /> 
+            </div>             
+        </div>         
+        <!--========== BEGIN #WRAPPER ==========-->         
+        <div id="wrapper" data-color="blue"> 
+            <!--========== BEGIN #HEADER ==========-->             
+            <header id="header"> 
+                <!-- Begin .top-menu -->                 
+                <div class="top-menu" wp-site-content> 
+                    <!-- Begin .container -->                     
+                    <div class="container"> 
+                        <!-- Begin .left-top-menu -->                         
+                        <ul class="left-top-menu"> 
+                            <li> 
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            </li>                             
+                            <li> 
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+                            </li>                             
+                            <li> 
+                                <a href="#" class="youtube"> <i class="fa fa-youtube"></i></a> 
+                            </li>                             
+                            <li> 
+                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> 
+                            </li>                             
+                            <li> 
+                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+                            </li>                             
+                            <li> 
+                                <a href="#" class="instagram"> <i class="fa fa-instagram"></i></a> 
+                            </li>                             
+                            <li class="address">
+                                <a href="#">+00 (123) 456 7890 <i class="fa fa-phone"></i></a>
+                            </li>                             
+                            <li class="address">
+                                <a href="#">info@domain.com <i class="fa fa-envelope-o"></i></a>
+                            </li>                             
+                        </ul>                         
+                        <!-- End .left-top-menu -->                         
+                        <!-- Begin .right-top-menu -->                         
+                        <ul class="right-top-menu pull-right"> 
+                            <li class="contact">
+                                <a href="contact.html"><i class="fa fa-map-marker fa-i"></i></a>
+                            </li>                             
+                            <li class="about">
+                                <a href="about-us.html"><i class="fa fa-user fa-i"></i></a> 
+                            </li>                             
+                            <li> 
+                                <div class="search-container"> 
+                                    <div class="search-icon-btn"> 
+                                        <span style="cursor:pointer"><i class="fa fa-search"></i></span> 
+                                    </div>                                     
+                                    <div class="search-input"> 
+                                        <input type="search" class="search-bar" placeholder="البحث ...." title="Search" /> 
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                        </ul>                         
+                        <!-- End .right-top-menu -->                         
+                    </div>                     
+                    <!-- End .container -->                     
+                </div>                 
+                <!-- End .top-menu -->                 
+                <!-- Begin .container -->                 
+                <div class="container"> 
+                    <!-- Begin .header-logo -->                     
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <h4>رئيس مجلس الادارة</h4> 
+                            <h1>ريهام الصاوي</h1> 
+                        </a>
+                    </div>                     
+                    <!-- End .header-logo -->                     
+                    <!-- Begin .header-add-place --> 
+                    <div class="header-add-place">
+                    <div class="logo text-center">
+                    	<a href="#"><img src="img/logo.jpg" alt="جريدة البلكونة"> </a>
+                    </div>
+                    </div>                    
+                                        
+                    <!-- End .header-add-place -->                     
+                    <!--========== BEGIN .NAVBAR #MOBILE-NAV ==========-->                     
+                    <nav class="navbar navbar-default" id="mobile-nav"> 
+                        <div class="navbar-header"> 
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" id="sidenav-toggle"> 
+                                <span class="icon-bar"></span> 
+                                <span class="icon-bar"></span> 
+                                <span class="icon-bar"></span> 
+                            </button>                             
+                            <div class="sidenav-header-logo">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="Site Logo" /> 
+                                    <h2>رئيس مجلس الادارة</h2> 
+                                    <h5>ريهام الصاوي</h5> 
+                                </a>
+                            </div>                             
+                        </div>                         
+                        <div class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle"> 
+                            <button type="button" class="navbar-toggle active" data-toggle="collapse"> 
+                                <span class="icon-bar"></span> 
+                                <span class="icon-bar"></span> 
+                                <span class="icon-bar"></span> 
+                            </button>                             
+                            <div class="sidenav-brand"> 
+                                <div class="sidenav-header-logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="Site Logo" /> 
+                                         
+                                    </a>
+                                </div>                                 
+                            </div>                             
+                            <ul class="sidenav-menu"> 
+                                <li>
+                                    <a href="javascript:;" class="active">الرئيسية</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="javascript:;">عنصر</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="javascript:;">عنصر</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="javascript:;">عنصر</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="javascript:;">عنصر</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">فيديوهات</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">صور</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">دكان الاخبار</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الرياضة</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">شةف الفن</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الحادثة</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="">TV شوف الطبخ</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#">شوف الحياة</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li>
+                                    <a href="#">ابيض واسود</a> 
+                                    <div class="icon-sub-menu" data-sidenav-dropdown-toggle>
+                                        <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon></span>
+                                        <span class="sidenav-dropdown-icon up-icon" data-sidenav-dropdown-icon></span>
+                                    </div>                                     
+                                    <ul class="sidenav-dropdown" data-sidenav-dropdown> 
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">عنصر فرعي</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                                    
+                            </ul>                             
+                        </div>                         
+                    </nav>                     
+                    <!--========== END .NAVBAR #MOBILE-NAV ==========-->                     
+                </div>                 
+                <!-- End .container -->                 
+                <!--========== BEGIN .NAVBAR #FIXED-NAVBAR ==========-->                 
+                <div class="navbar" id="fixed-navbar"> 
+                    <!--========== BEGIN MAIN-MENU .NAVBAR-COLLAPSE COLLAPSE #FIXED-NAVBAR-TOOGLE ==========-->                     
+                    <div class="main-menu nav navbar-collapse collapse" id="fixed-navbar-toggle"> 
+                        <!--========== BEGIN .CONTAINER ==========-->                         
+                        <div class="container"> 
+                            <!-- Begin .nav navbar-nav -->                             
+                            <ul class="nav navbar-nav"> 
+                                <li class="active">
+                                    <a href="">الرئيسية</a>
+                                </li>                                 
+                                <li>
+                                    <a href="">فيديوهات</a> 
+                                </li>                                 
+                                <li>
+                                    <a href="">صور</a> 
+                                </li>                                 
+                                <li>
+                                    <a href="">دكان الأخبار</a>
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الرياضة</a>
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الفن </a>
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الحادثة</a>
+                                </li>                                 
+                                <li>
+                                    <a href="">شوف الطبخ</a>
+                                </li>                                 
+                                <!--========== BEGIN .DROPDOWN ==========-->                                 
+                                <li class="dropdown"> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">شوف الحياة</a> 
+                                    <ul class="dropdown-menu"> 
+                                        <li>
+                                            <a href="">شوف الحياة</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">شوف الحياة</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">شوف الحياة</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">شوف الحياة</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">شوف الحياة</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                <li class="dropdown"> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">أبيض وأسود</a> 
+                                    <ul class="dropdown-menu"> 
+                                        <li>
+                                            <a href="">أبيض وأسود</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">أبيض وأسود</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">أبيض وأسود</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">أبيض وأسود</a>
+                                        </li>                                         
+                                        <li>
+                                            <a href="">أبيض وأسود</a>
+                                        </li>                                         
+                                    </ul>                                     
+                                </li>                                 
+                                
+                                <!--========== END DROPDOWN MEGA-DROPDOWN ==========-->                                 
+                            </ul>                             
+                            <!--========== END .NAV NAVBAR-NAV ==========-->                             
+                        </div>                         
+                        <!--========== END .CONTAINER ==========-->                         
+                    </div>                     
+                    <!--========== END MAIN-MENU .NAVBAR-COLLAPSE COLLAPSE #FIXED-NAVBAR-TOOGLE ==========-->                     
+                    <!--========== BEGIN .SECOND-MENU NAVBAR #NAV-BELOW-MAIN ==========-->                     
+                    <div class="second-menu navbar" id="nav-below-main"> 
+                        <!-- Begin .container -->                         
+                        <div class="container"> 
+                            <!-- End .collapse navbar-collapse -->                             
+                            <!-- Begin .clock -->                             
+                            <div class="clock"> 
+                                <div id="time"></div>                                 
+                                <div id="date"></div>                                 
+                            </div>                             
+                            <!-- End .clock -->                             
+                        </div>                         
+                        <!-- End .container -->                         
+                    </div>                     
+                    <!--========== END .SECOND-MENU NAVBAR #NAV-BELOW-MAIN ==========-->                     
+                </div>                 
+            </header>             
+            <!--========== END #HEADER ==========-->             
+            
+            <!--Start Module -->
+                <section class="module dark">
+                <div class="container">
+                <div class="row no-gutter"> 
+                            
+                                                         
+                                                         
+                            <div class="news-slide"> 
+                                                                 
+                                                                 
+                                <div class="col-md-4 col-xs-12 no-pad news-slider-layer"> 
+                                    <a href="sport.html" target="_blank"> 
+                                        <div class="content"> 
+                                            <span class="category-tag bg-4">شوف الاخبار</span> 
+                                            <p>قررت شركة جوجل السماح للمستخدمين....</p> 
+                                        </div>                                         
+                                        <img src="img/index_slider-image03.jpg" alt=""> 
+                                    </a>                                     
+                                </div>                                 
+                                <div class="col-md-4 col-xs-12 no-pad news-slider-layer"> 
+                                    <a href="travel.html" target="_blank"> 
+                                        <div class="content"> 
+                                            <span class="category-tag bg-2">شوف الحياة</span> 
+                                            <p>قررت شركة جوجل السماح للمستخدمين....</p> 
+                                        </div>                                         
+                                        <img src="img/index_slider-image04.jpg" alt=""> 
+                                    </a>                                     
+                                </div>
+                                
+                                <div class="col-md-4 col-xs-12 no-pad news-slider-layer"> 
+                                    <a href="travel.html" target="_blank"> 
+                                        <div class="content"> 
+                                            <span class="category-tag bg-2">شوف الحياة</span> 
+                                            <p>قررت شركة جوجل السماح للمستخدمين....</p> 
+                                        </div>                                         
+                                        <img src="img/index_slider-image04.jpg" alt=""> 
+                                    </a>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>
+                        </div>
+                        </section>
+                        
+                        <!--End module -->
+            
+            <!--========== BEGIN #MAIN-SECTION ==========-->             
+            <section id="main-section"> 
+                              
+                <!--========== BEGIN .MODULE ==========-->                 
+                <section class="module"> 
+                    <!--========== BEGIN .CONTAINER ==========-->                     
+                    <div class="container">
+                    <!--========== BEGIN .BREAKING-NEWS ==========-->                         
+                        <!-- Begin .outer -->                         
+                        <div class="outer"> 
+                            <div class="breaking-ribbon"> 
+                                <h4>أحدث الأخبار</h4> 
+                            </div>                             
+                            <!-- Begin .newsticker -->                             
+                            <div class="newsticker"> 
+                                <ul> 
+                                    <li> 
+                                        <h4><span class="category">الأخبار:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                    <li> 
+                                        <h4><span class="category">الرحلات:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                    <li> 
+                                        <h4><span class="category">السياسة:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                    <li> 
+                                        <h4><span class="category">الصحة:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                    <li> 
+                                        <h4><span class="category">عالمية:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                    <li> 
+                                        <h4><span class="category">المالية:</span><a href="#"> 1044 كرسي وخمس كاميرات حصيلة تلفيات أحداث مباراة الاهلي.</a></h4> 
+                                    </li>                                     
+                                </ul>                                 
+                                <div class="navi"> 
+                                    <button class="up">
+                                        <i class="fa fa-caret-left"></i>
+                                    </button>                                     
+                                    <button class="down">
+                                        <i class="fa fa-caret-right"></i>
+                                    </button>                                     
+                                </div>                                 
+                            </div>                             
+                            <!-- End .newsticker -->                             
+                        </div>                         
+                        <!-- End .outer -->                         
+                        <!--========== END .BREAKING-NEWS ==========-->                         
+                     
+                    </div>                     
+                </section>                 
+                <!--========== END .MODULE ==========-->                 
+                 
+                <!--========== BEGIN .MODULE ==========-->                 
+                <div id="main-section"> 
+    <!--========== BEGIN .MODULE ==========-->
+    <section class="module-top">
+      <div class="container">
+        <div class="row">
+          <!-- Begin .contact-us -->
+          <div class="contact-us">
+            <div class="col-xs-12 col-sm-5 col-md-5">
+              <div class="form-group">
+                <div class="title-left title-style04 underline04">
+                  <h3>عن البلكونة</h3>
+                </div>
+                <p> القدس عاصمة لإسرائيل صرحت مصادر دبلوماسية أن دونالد ترامب  ، الرئيس الأمريكي ، سيعلن القدس عاصمة لإسرائيل وسيعلن نقل السفارة الأمريكية إليها في كلمة متوقعة له وأوضحت المصادر أن ترامب قام بإطلاع زعماء عرب بهذا القرار خلال مجموعة من الاتصالات التي أجراها،ولم يحدد ترامب إطارا زمنيا لنقل السفارة، إلا أنه سيعلن عن التزامه بهذا الوعد الذي قطعه على نفسه خلال …</p>
+                <p> القدس عاصمة لإسرائيل صرحت مصادر دبلوماسية أن دونالد ترامب  ، الرئيس الأمريكي ، سيعلن القدس عاصمة لإسرائيل وسيعلن نقل السفارة الأمريكية إليها في كلمة متوقعة له وأوضحت المصادر أن ترامب قام بإطلاع زعماء عرب بهذا القرار خلال مجموعة من الاتصالات التي أجراها،ولم يحدد ترامب إطارا زمنيا لنقل السفارة، إلا أنه سيعلن عن التزامه بهذا الوعد الذي قطعه على نفسه خلال …</p>
+                <div class="title-left title-style04 underline04">
+                  <h3>بيانات الإتصال</h3>
+                </div>
+                <ul>
+                  <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>العنوان:</span> جمهورية مصر العربية , القاهرة</li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i><span>الهاتف:</span> ++2 (010) 561 252 7890</li>
+                  <li><i class="fa fa-envelope-o" aria-hidden="true"></i><span>البريد الإلكتروني:</span> <a href="mailto:mail@sitename.com">info@domain.com</a></li>
+                  <li><i class="fa fa-globe" aria-hidden="true"></i><span>الموقع الإلكتروني:</span> <a href="index.html">http://domain.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Begin .contact-form -->
+            <div class="col-xs-12 col-sm-7 col-md-7">
+              <div class="title-left title-style04 underline04">
+                <h3>تواصل معنــــا</h3>
+              </div>
+              <form id="contact-form" method="post" action="http://via-theme.com/24hNews/include/contact.php">
+                <div class="messages"></div>
+                <div class="controls">
+                  <div class="row no-gutter">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_name">الاسم الأول *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="أدخل اسمك *" required data-error="الاسم الأول مطلوب .">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_lastname">الاسم الثاني *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="أدخل اسمك الثاني *" required data-error="الاسم الثاني مطلوب.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutter">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_email">البريد الإلكتروني *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="أدخل البريد الإلكتروني  *" required data-error="البريد الإلكتروني مطلوب.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_phone">الهاتف</label>
+                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="أدخل رقم الهاتف">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutter">
+                   <div class="form-group">
+                        <label for="form_message">الرسالة *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="الرسالة *" rows="4" required data-error="من فضلك أترك رسالتك ."></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    
+                    <div class="row">
+                    <div class="col-md-12">
+                      <input type="submit" class="btn btn-success btn-send" value="إرسال الرسالة">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutter">
+                    <div class="col-md-12">
+                      <p class="text-muted"><strong>*</strong> هذه الحقول مطلوبة.</p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End .contact-form --> 
+          </div>
+          <!-- End .contact-us --> 
+        </div>
+      </div>
+    </section>
+    <!--========== END .MODULE ==========--> 
+    <!-- Begin Google Map  -->
+    <div class="google-map-area">
+      <div class="container-fluid">
+        <div id="map-canvas"></div>
+      </div>
+    </div>
+    <!-- End Google Map --> 
+  </div>               
+                <!--========== END .MODULE ==========-->                 
+                           
+                                 
+            </section>             
+            <!--========== END #MAIN-SECTION ==========-->             
+            
+            <!--========== BEGIN #COPYRIGHTS==========-->             
+            <div id="copyrights"> 
+                <!-- Begin .container -->                 
+                <div class="container">                      
+                    <!--  Begin .footer-social-icons -->                     
+                    <div class="footer-social-icons"> 
+                        <ul class="list-inline text-center"> 
+                            <li> 
+                                <a href="#">الرئيسية</a> 
+                            </li>                             
+                            <li> 
+                                <a href="#">فيديوهات</a> 
+                            </li>                             
+                            <li> 
+                                <a href="#">صور</a> 
+                            </li>                             
+                            <li> 
+                                <a href="#">دكان الأخبار</a> 
+                            </li>
+                            <li> 
+                                <a href="#">شوف الرياضة</a> 
+                            </li>
+                            <li> 
+                                <a href="#">شوف الفن</a> 
+                            </li>
+                            <li> 
+                                <a href="#">شوف الحادثة</a> 
+                            </li>
+                            <li> 
+                                <a href="#">شوف الطبخ</a> 
+                            </li>
+                            <li> 
+                                <a href="#">شوف الحياة</a> 
+                            </li>
+                            <li> 
+                                <a href="#">أبيض وأسود</a> 
+                            </li>
+                                                         
+                        </ul>                         
+                    </div>                     
+                    <!--  End .footer-social-icons --> 
+                    
+                    
+                    <!-- Begin .copyright -->                     
+                    <div class="copyright"> &copy; 2018, حقوق الطباعة محفوظة </div>                     
+                    <!-- End .copyright -->                    
+                </div>                 
+                <!-- End .container -->                 
+            </div>             
+            <!--========== END #COPYRIGHTS==========-->             
+        </div>         
+        <!--========== END #WRAPPER ==========-->         
+        <!-- External JavaScripts -->         
+        <script src="js/jquery-3.1.1.min.js"></script>         
+        <script src="js/bootstrap.min.js"></script>         
+        <script src="js/jquery-ui.min.js"></script>         
+        <script src="js/plugins.js"></script>
+		<script src="js/validator.js"></script> 
+        <script src="js/contact.js"></script> 
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAhvyGCRCkTlvboC92nONMJ0dS38tevYUc"></script>
+        
+        <!-- JavaScripts
+              ============================================= --> 
+        <script src="js/google-map.js"></script>          
+        <script src="js/functions.js"></script>         
+    </body>     
+</html>
